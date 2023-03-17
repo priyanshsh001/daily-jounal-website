@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+}
+*{
+  margin: 0px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.hform{
+  margin: auto 10% 5% 10% ;
+}
+ 
+.itemdiv{
+text-align: center;
+margin: auto;
+}
+.itemdivfront{
+  margin: 2% 2% 2% 2%;
+  padding: 2px 2px 2px 2px;
+ 
+}
+.itemdiv h2{
+  margin-bottom: 25px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* NAVBAR */
+.navbar{
+  background-color: #43464b;
+  border-radius: 0%;
+}
+
+.heading{
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: 'Libre Baskerville', serif;
+}
+.navdiv{
+  display: flex;
+margin: 20px 0px 20px 10px;
+  justify-content: space-between;
+
+}
+.navdiv ul li{
+  display: inline-block;
+  margin: 0px 20px 0px 0px;
+
+}
+
+.k{
+  text-decoration: none;
+
+  transition: none;
+  
+  color: white;
+  
+ border-radius: 4px;
+ margin:4px 2px 2px 2px ;
+ padding: 3px 3px 3px 5px;
+  
+ font-family: "Poppins";
+  cursor: pointer;
+  font-size: 1.1em;
+ box-shadow: #19191b;
+ 
+}
+.k:hover{
+  color: white;
+}
+.k:focus{
+  color: white;
+}
+
+/* error message to be displayed */
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
+}
+.emaild{
+  color: #ccc;
+  padding-right: 1rem;
+  font-size: 1.5rem;
+}
+
+
+/* FOOTER */
+.footer-padding {
+padding-bottom: 60px;
+}
+
+.footer {
+position: fixed;
+text-align: center;
+bottom: 0;
+width: 100%;
+height: 60px;
+background-color: #2eeac4;
+}
+
+.footer p {
+  position: relative;
+margin-top: 25px;
+font-size: 15px;
+color: #fff;
+}
+.dt{
+  height:100vh;
+}
+/* FOR THE EMPTY Page without any composed item */
+.empty{
+  margin-top: 30px;
+  text-align: center;
+}
+.h11{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.form{
+  width: 50%;
+  margin: auto;
+}
+.para-about{
+
+  width: 90%;
+  margin: 20px auto auto auto  ;
+}
+@media screen and (max-width: 500px) {
+ 
+ .navdiv{
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ }
+
+.nearbydiv{
+  display: flex;
+  flex-direction: column;
+margin-left: 2px;
+}
+.k{
+  margin-bottom: 1rem;
+}
+.emailid{
+  margin-bottom:  1rem;
+}
+.heading{
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+}
